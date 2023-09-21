@@ -3,16 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- CSS only -->
-        <link rel="stylesheet" type="text/css" href="{% static 'polls/stijl.css' %}">
-   
-    </head>
+    <!-- Include your CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/stijl.css' %}">
+</head>
 <body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
 </body>
-<div class = container>
-   {% block content %}
-   {% endblock %}
-    
-</div>
-
 </html>
+
