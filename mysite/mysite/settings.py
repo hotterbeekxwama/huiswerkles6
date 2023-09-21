@@ -128,8 +128,8 @@ STATIC_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/static'
 
 # settings.py
 
-MEDIA_URL = '/media/'  # URL for serving media files
-MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/media/'  # Update with the correct absolute path on PythonAnywhere
+# MEDIA_URL = '/static/'  # URL for serving media files
+# MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/media/'  # Update with the correct absolute path on PythonAnywhere
 
 
 
