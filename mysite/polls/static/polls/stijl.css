@@ -5,7 +5,7 @@ li a {
 
 body {
     height: 200px;
-    background-image: url({% media "polls/minions.jpg" %}), url("polls/paper.jfif");
+    background-image: url('{% media "polls/minions.jpg" %}'), url('{% media "polls/paper.jfif" %}');
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
 }
