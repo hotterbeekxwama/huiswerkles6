@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-o+y=)_6#8*@ep+nmr1!qu^h#l6s$z2dmn!*a^73!vu!yz=bqlb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls.apps.PollsConfig',
     'polls',
 ]
 
@@ -123,7 +122,7 @@ STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
 STATIC_ROOT = '/home/Wiel600922319/Wiel600922319.pythonanywhere.com/static/'
 
-MEDIA_URL = '/media/'  # URL for serving media files
+MEDIA_URL = '/static/polls/images/'  # URL for serving media files
 MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/static/polls/images/'  # Absolute path to the media root directory
 
 
