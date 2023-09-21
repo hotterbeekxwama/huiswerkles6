@@ -120,7 +120,8 @@ STATIC_URL = 'static/'
 
 # Define the root directory for static files
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
-STATIC_ROOT = '/home/Wiel1960/wiel1960.pythonanywhere.com/static/'
+STATIC_ROOT = '/home/Wiel600922319/Wiel600922319.pythonanywhere.com/static/'
+STATIC_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/media'
 
 
 # Default primary key field type
