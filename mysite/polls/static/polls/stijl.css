@@ -1,0 +1,27 @@
+li a {
+    color: aquamarine;
+    font-size: xx-large;
+}
+
+body {
+    height: 200px;
+    background-image: url("images/minions.jpg"), url("images/paper.jfif");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+ul {
+    color: aquamarine;
+}
+
+fieldset {
+    color: aquamarine;
+}
+
+a {
+    color: aquamarine;
+}
