@@ -5,10 +5,11 @@ li a {
 
 body {
     height: 200px;
-    background-image: url("images/minions.jpg"), url("images/paper.jfif");
+    background-image: url("polls/minions.jpg"), url("polls/paper.jfif");
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
 }
+
 
 h1 {
     color: aquamarine;
