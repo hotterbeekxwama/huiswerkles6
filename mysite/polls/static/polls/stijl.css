@@ -6,6 +6,8 @@ li a {
 body {
     height: 200px;
     background-image: url('/media/polls/minions.jpg'), url('/media/polls/paper.jfif');
+    <img src="{{ MEDIA_URL }}polls/minions.jpg" alt="Minions">
+
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
 }
