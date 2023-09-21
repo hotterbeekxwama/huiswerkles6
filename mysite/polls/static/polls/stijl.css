@@ -6,10 +6,10 @@ li a {
 body {
     height: 200px;
     background-color: #cccccc;
-    
-    background-image: url("minions.jpg"), url("paper.jfif");
+    background-image: url('/static/polls/minions.jpg'), url('/static/polls/paper.jfif');
     background-repeat: no-repeat, repeat;
 }
+
 
 
 h1 {
