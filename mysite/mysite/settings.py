@@ -120,10 +120,11 @@ STATIC_URL = '/static/'
 
 # Define the root directory for static files
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
-STATIC_ROOT = '/home/Wiel600922319/Wiel600922319.pythonanywhere.com/static/'
+STATIC_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/static'
+
 
 MEDIA_URL = '/media/'  # URL for serving media files
-MEDIA_ROOT = '/home/Wiel600922319/Wiel600922319.pythonanywhere.com/media/'  # Absolute path to the media root directory
+MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/media'  # Absolute path to the media root directory
 
 
 
