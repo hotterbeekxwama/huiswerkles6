@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'polls',
 ]
 
 MIDDLEWARE = [
@@ -121,8 +122,9 @@ STATIC_URL = '/static/'
 # Define the root directory for static files
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
 STATIC_ROOT = '/home/Wiel600922319/Wiel600922319.pythonanywhere.com/static/'
-MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/media/'
-MEDIA_URL = '/media/'
+
+MEDIA_URL = '/media/'  # URL for serving media files
+MEDIA_ROOT = '/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/static/polls/images/'  # Absolute path to the media root directory
 
 
 
