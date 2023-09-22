@@ -116,7 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/wiel600922319.pythonanywhere.com/static/'
+STATIC_URL = '/static/'
 
 
 # Define the root directory for static files
